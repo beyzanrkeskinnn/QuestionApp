@@ -3,11 +3,11 @@ In this project, a question application was made using React, Html, CSS, JavaScr
 
 #### Features
 
-- Testin başlangıcında bilgilendirme ve "Teste Başla" adlı bir buton bulunur. Bu buton ile kullanıcı testi başlatır.
-- Test, 10 sorudan oluşur. Soruların her biri ekranda en fazla 30 saniye kalır.
-- İlk 4 saniye boyunca cevap şıkları görünmez. 4 saniyenin sonunda şıklar görünür.
-- Kullanıcı bir cevap seçtiğinde veya süre dolduğunda, yeni bir soruya geçilir. Kullanıcı geçmiş sorulara dönemez.
-- Testin sonunda, her soruya verilen yanıt ile birlikte doğru ve yanlış cevap sayıları kullanıcıya gösterilir.
+- At the beginning of the test, there is information and a button called "Start Test". With this button, the user starts the test.
+- The test consists of 10 questions. Each question remains on the screen for a maximum of 30 seconds.
+- Answer options do not appear for the first 4 seconds. At the end of 4 seconds, the options appear.
+- When the user selects an answer or time runs out, it moves to a new question. The user cannot return to past questions.
+- At the end of the test, the number of correct and incorrect answers along with the answers given to each question are displayed to the user.
 
 #### Setup
 
