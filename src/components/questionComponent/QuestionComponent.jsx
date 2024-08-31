@@ -18,7 +18,7 @@ function QuestionComponent() {
     setTimeLeft(30);
     setSelectedAnswer(null);
     setIsCorrect(null);
-    setShowAnswers(false); 
+    setShowAnswers(false);
 
     // After 4 seconds the replies stop starting
     const initialDelay = setTimeout(() => {
@@ -118,13 +118,8 @@ function QuestionComponent() {
                 )}
               </div>
             </div>
-            <div className="butons">
-              <p className="countdown">Kalan Süre: {timeLeft} saniye</p>
 
-              <button className="nav-button" onClick={handleNext}>
-                İleri <i className="fas fa-chevron-right"></i>
-              </button>
-            </div>
+            <p className="countdown">Kalan Süre: {timeLeft} saniye</p>
           </>
         )
       )}

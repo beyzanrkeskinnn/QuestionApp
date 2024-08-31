@@ -67,26 +67,9 @@ h5 {
   border-color: #d32f2f;
 }
 
-.nav-button {
-  background-color: #88559e;
-  color: white;
-  border-radius: 5px;
-  border: 0.1px solid #672284;
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
-  padding: 8px 40px;
-  margin-left: 0;
-}
-
-.butons {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0;
-  margin-top: 20px;
-}
-
 .countdown {
   font-size: 16px;
   color: #333;
   margin-top: 20px;
+  text-align: right;
 }
