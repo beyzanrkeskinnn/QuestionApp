@@ -1,0 +1,37 @@
+.info {
+  width: 900px;
+}
+h3 {
+  font-weight: bold;
+}
+h6 {
+  font-weight: bold;
+}
+.notes {
+  font-size: 14px;
+  padding-left: 20px;
+}
+.btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+ 
+}
+.btn p {
+  font-weight: bold;
+  
+  padding: 8px;
+  text-align: center;
+  margin-top: 14px;
+  
+}
+.btn-start {
+  background-color: #88559e;
+  color: white;
+  border-radius: 5px;
+  border: 0.1px solid #672284;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* Gölge */
+  padding: 8px 40px;
+  margin-left: 0;
+}
